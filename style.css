@@ -1,0 +1,29 @@
+body {
+    height: 100hv;
+    background-color: antiquewhite;
+    margin: 0%;
+    padding: 100px;
+}
+
+.wrap {
+    width: 300px;
+    margin: auto;
+}
+
+#input {
+    width: 70%;
+}
+
+#btn {
+    width: 20%;
+}
+
+ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+#result {
+    margin-bottom: 50px;
+}

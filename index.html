@@ -5,18 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>New Task List 27-01-2022</title>
+    <title>New Task List 28-01-2022</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="add-task">
-            <input type="text" class="add-task__input">
-            <button class="btn btn-primary add-task__btn">Add</button>
+    <div class="wrap">
+        <input type="text" id="input" />
+        <button id="btn">Add</button>
+        <ul id="result"></ul>
+        <div>
+            Total:
+            <span id="total"></span>
         </div>
-        <ul class="task-list">
-        </ul>
     </div>
     <script src="/script.js"></script>
 </body>
