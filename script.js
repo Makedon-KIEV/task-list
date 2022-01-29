@@ -15,7 +15,12 @@ function createDeleteElements(value) {
     console.log(value)
 
     const li = document.createElement('li')
+
     li.className = 'li'
+    li.textContent = value
+
+    const btn = document.createElement('btn')
+    li.className = 'btn'
     li.textContent = value
 
     result.appendChild(li)

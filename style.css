@@ -1,8 +1,8 @@
 body {
     height: 100hv;
-    background-color: antiquewhite;
-    margin: 0%;
-    padding: 100px;
+    background-color: rgb(230, 231, 145);
+    margin: 0 auto;
+    padding-top: 100px;
 }
 
 .wrap {
@@ -26,4 +26,41 @@ ul {
 
 #result {
     margin-bottom: 50px;
+}
+
+.btn {
+    background-color: rgb(170, 132, 206);
+    border: none;
+    color: #fff;
+    margin-left: 15px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+
+.li {
+    padding: 4px 8px;
+    background: #eddfff;
+    border: 1px solid red;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.li-action {
+    color: silver;
+    text-decoration: line-through;
+    background: #000;
+}
+
+.li-action .btn {
+    color: rgb(49, 46, 46);
+    text-decoration: line-through;
+    background: springgreen;
 }
