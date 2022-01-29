@@ -24,4 +24,5 @@ function createDeleteElements(value) {
     li.textContent = value
 
     result.appendChild(li)
+    const a = 1
 }
